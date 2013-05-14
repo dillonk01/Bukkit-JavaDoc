@@ -71,7 +71,7 @@ public enum Achievement {
     }
 
     static {
-        for (Achievement achievement : values()) {
+        for (Achievement achievement : values() {
             BY_ID.put(achievement.id, achievement);
         }
     }
